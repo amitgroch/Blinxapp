@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tvQuestion"
+		android:text="Amit is..."
+        />
+    <RadioGroup android:id="@+id/rgAnswer" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+        <RadioButton android:text="Crazy"
+            android:id="@+id/rbCraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+        <RadioButton android:text="Super Crazy"
+            android:id="@+id/rbSexy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+        <RadioButton android:text="Both"
+            android:id="@+id/rbBoth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    </RadioGroup>
+      <Button 
+        android:text="Back"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:id="@+id/bReturn"
+	     />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tvText"
+		android:text="Amit is..."
+        />
+</LinearLayout>

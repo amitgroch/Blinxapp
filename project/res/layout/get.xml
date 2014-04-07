@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/etSend"
+        />
+	<Button 
+	    android:layout_below="@+id/etSend"
+	    android:text="Send"
+	    android:layout_alignParentRight="true"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:id="@+id/bSA"
+	     />
+    <Button 
+        android:text="Start Activity"
+	    android:layout_below="@+id/bSA"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:id="@+id/bSAFR"
+	     />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bSAFR"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/tvGot" />
+	
+</RelativeLayout>
