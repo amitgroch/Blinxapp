@@ -28,7 +28,7 @@ public class WeatherXmlparse extends Activity implements OnClickListener {
 		city = (TextView)findViewById(R.id.city);
 		state = (TextView)findViewById(R.id.state);
 		result= (TextView)findViewById(R.id.tv);
-		//b.setOnClickListener(this);   
+		b.setOnClickListener(this);   
 		
 	}
 	@Override
